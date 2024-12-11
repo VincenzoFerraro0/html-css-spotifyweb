@@ -1,5 +1,11 @@
 /* media query mobile first md 768px */
 
 @media screen and (min-width: 768px) {
-    
+    .main-menu ul li {
+        flex-basis: calc(100% / 5 - 10px);
+    }
+
+    .card {
+        flex-basis: calc(100% / 4 - 10px);
+    }
 }

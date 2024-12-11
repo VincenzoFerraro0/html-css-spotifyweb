@@ -13,8 +13,7 @@
     }
     .logo-large {
         display: inline-block;
-        
-
+     
     }
     .show-menu {
         display: block;
@@ -22,11 +21,14 @@
     .playlist {
         display: inline-block;
     }
-    img {
+   
+    .icon-small{
         width: 20%;
     }
-
     
+    .main-menu ul li {
+        flex-basis: calc(100% / 3 - 10px);
+    }
     
     
 }

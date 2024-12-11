@@ -65,6 +65,48 @@
     /* background-color: yellow; */
     height: 90vh;
     flex-basis: 90%;
+    overflow: scroll;
+    
+}
+
+.upgrade {
+    padding: 30px;
+    background-color: blue;
+    text-align: right;
+}
+.btn {
+    
+    padding: 10px 20px;
+    border: 1px solid white;
+}
+.main-menu{
+    padding:20px
+}
+.main-menu ul{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    flex-wrap: wrap;
+   
+
+
+}
+.main-menu ul li {
+    flex-basis: calc(100% / 4 - 10px);
+}
+.container-cards {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex-grow: 1;
+    padding: 10px;
+}
+.card {
+    flex-basis: calc(100% / 2 - 10px );
+
+    background-color: red;
 }
 
 #footer {
