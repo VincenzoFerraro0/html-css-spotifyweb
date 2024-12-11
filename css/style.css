@@ -1,16 +1,34 @@
 .container {
     background-color: aqua;
+    max-width: 100%;
     height: 100vh;
     display: flex;
     flex-wrap: wrap;
 }
 
-header {
+#site-bar{
     background-color: red;
     height: 90vh;
     flex-basis: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 
 }
+.menu-top {
+    background-color: blue;
+    width: 30px;
+    height: 30px;
+}
+
+.menu-bottom {
+    background-color: blue;
+    width: 30px;
+    height: 30px;
+}
+
+
 
 main {
     background-color: yellow;
