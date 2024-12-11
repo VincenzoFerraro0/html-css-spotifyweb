@@ -1,0 +1,25 @@
+.container {
+    background-color: aqua;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    background-color: red;
+    height: 90vh;
+    flex-basis: 10%;
+
+}
+
+main {
+    background-color: yellow;
+    height: 90vh;
+    flex-basis: 90%;
+}
+
+footer {
+    background-color: brown;
+    height: 10vh;
+    flex-basis: 100%;
+}
