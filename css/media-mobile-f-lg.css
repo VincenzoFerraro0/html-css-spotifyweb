@@ -3,13 +3,22 @@
 @media screen and (min-width: 1024px) { 
 
 
-
-
     /* custom */
 
+    /* main */
+
     /* link menu */
+    .menu-main ul {
+        font-size: 0.9rem;
+    }
     .menu-main ul li {
         flex-basis: calc(100% / 6 - 10px);
     }
-
+    .layout-cards {
+        gap: 20px;
+    }
+    .cards {
+        flex-basis: calc(100% / 6 - 20px);
+    
+    } 
 }

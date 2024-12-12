@@ -25,6 +25,9 @@ img[alt="logo big"]{
 .sidebar-menu-bottom hr {
     display: none;
 }
+.card-paly {
+    display: none;
+}
 
 
 /* contenitore top */
@@ -135,6 +138,7 @@ img.profile {
     flex-basis: 90%;
     background-color: var(--color-main);
     overflow-y: scroll;
+    color: white;
 
 }
 
@@ -168,13 +172,12 @@ a.btn-pill {
 }
 
 .menu-main ul {
-   
     text-align: center;
     text-transform: uppercase;
-    
+    font-size: 0.4rem;
+
     display: flex;
     justify-content: space-around;
-    
     gap: 10px;
     flex-wrap: wrap;
     
@@ -184,9 +187,61 @@ a.btn-pill {
     flex-basis: calc(100% / 4 - 10px);
     flex-grow: 1;
 }
-.menu-main ul li a {
-    font-size: 0.4rem;
+
+/* contenitore card music */
+.container-cards {
+    border: 1px solid red;
+    padding: 10px;
+    margin-bottom: 1em;
+    
+    
 }
+
+.layout-cards {
+    margin-top: 10px ;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+.cards {
+    flex-basis: calc(100% / 2 - 10px);
+
+} 
+
+
+
+
+.card {
+    position: relative;
+
+}
+.card img:hover {
+    opacity: 0.5;
+}
+.card-play{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.card:hover .card-play {
+    display: inline-block;
+    
+}
+
+.card-text {
+    text-align: center;
+    
+}
+.fa-circle-play {
+
+    font-size: 60px;
+    color: white;
+}
+
 /* contenitore bottom */
 
 .layout-bottom {

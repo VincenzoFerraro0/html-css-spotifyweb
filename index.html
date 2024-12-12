@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- link reset css -->
     <link rel="stylesheet" href="./css/reset.css">
-    
+
     <!-- link debug css -->
     <!-- <link rel="stylesheet" href="./css/debug.css"> -->
-    
+
     <!-- link stile custom css -->
     <link rel="stylesheet" href="./css/style.css">
 
@@ -22,11 +25,12 @@
     <link rel="stylesheet" href="./css/media-mobile-f-md.css">
 
     <!-- link esterno media query mobile first lg 1024px-->
-     <link rel="stylesheet" href="./css/media-mobile-f-lg.css">
+    <link rel="stylesheet" href="./css/media-mobile-f-lg.css">
 
 
     <title>Spotify</title>
 </head>
+
 <body>
     <div class="layout-top">
 
@@ -81,19 +85,19 @@
                             <span>crea playlist</span>
                         </a>
                     </div>
-                   <ul>
-                    <li><a href="#">nome playlist</a></li>
-                    <li><a href="#">nome playlist</a></li>
-                    <li><a href="#">nome playlist</a></li>
-                    <li><a href="#">nome playlist</a></li>
-                    <li><a href="#">nome playlist</a></li>
-                   </ul>
+                    <ul>
+                        <li><a href="#">nome playlist</a></li>
+                        <li><a href="#">nome playlist</a></li>
+                        <li><a href="#">nome playlist</a></li>
+                        <li><a href="#">nome playlist</a></li>
+                        <li><a href="#">nome playlist</a></li>
+                    </ul>
                 </div>
             </div>
 
             <!-- menu in basso nella sidebar -->
             <div class="sidebar-menu-bottom">
-                <a href="#"> 
+                <a href="#">
                     <img width="15px" src="./img/download.svg" alt="">
                     <span>installa app</span>
                 </a>
@@ -102,10 +106,10 @@
                     <img class="profile" width="25px" src="./img/profile.svg" alt="">
                     <span>vincenzo</span>
                 </a>
-                
+
             </div>
         </div>
-        
+
         <!-- contenitore parte pricipale -->
         <div class="main">
 
@@ -115,32 +119,140 @@
             </div>
             <!-- menu  -->
             <div class="menu-main">
-                    <ul>
-                        <li>
-                            <a href="">in evidenza</a>
-                        </li>
-                        <li>
-                            <a href="">podcast</a>
-                        </li>
-                        <li>
-                            <a href="">classifiche</a>
-                        </li>
-                        <li>
-                            <a href="">generi e mood</a>
-                        </li>
-                        <li>
-                            <a href="">nuove uscite</a>
-                        </li>
-                        <li>
-                            <a href="">scopri</a>
-                        </li>
-                    </ul>
-                </div>
-
-
-            <div class="layout-cards">
-           
+                <ul>
+                    <li>
+                        <a href="">in evidenza</a>
+                    </li>
+                    <li>
+                        <a href="">podcast</a>
+                    </li>
+                    <li>
+                        <a href="">classifiche</a>
+                    </li>
+                    <li>
+                        <a href="">generi e mood</a>
+                    </li>
+                    <li>
+                        <a href="">nuove uscite</a>
+                    </li>
+                    <li>
+                        <a href="">scopri</a>
+                    </li>
+                </ul>
             </div>
+
+            <div class="container-cards">
+                <h3>Recently played</h3>
+                <div class="layout-cards">
+                
+                    <div class="cards">
+                        <div class="card">
+                            <a href="#">
+                                <img width="100%" src="./img/metal_lifting.jpg" alt="">
+                            </a>
+                            <span class="card-play">
+                                <i class="fa-regular fa-circle-play"></i>
+                            </span>
+                        </div>
+                        <div class="card-text">
+                            <h3>titolo</h3>
+                            <a>sott</a>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="card">
+                            <a href="#">
+                                <img width="100%" src="./img/stranger.jpeg" alt="">
+                            </a>
+                            <span class="card-play">
+                                <i class="fa-regular fa-circle-play"></i>
+                            </span>
+                        </div>
+                        <div class="card-text">
+                            <h3>titolo</h3>
+                            <a>sott</a>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="card">
+                            <a href="#">
+                                <img width="100%" src="./img/aquietplace.jpeg" alt="">
+                            </a>
+                            <span class="card-play">
+                                 <i class="fa-regular fa-circle-play"></i>
+                            </span>
+                        </div>
+                        <div class="card-text">
+                            <h3>titolo</h3>
+                            <a>sott</a>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="card">
+                            <a href="#">
+                                <img width="100%" src="./img/split.jpeg" alt="">
+                            </a>
+                            <span class="card-play">
+                                <i class="fa-regular fa-circle-play"></i>
+                            </span>
+                        </div>
+                        <div class="card-text">
+                            <h3>titolo</h3>
+                            <a>sott</a>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="card">
+                            <a href="#">
+                                <img width="100%" src="./img/cure.jpeg" alt="">
+                            </a>
+                            <span class="card-play">
+                                <i class="fa-regular fa-circle-play"></i>
+                            </span>
+                        </div>
+                        <div class="card-text">
+                            <h3>titolo</h3>
+                            <a>sott</a>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="card">
+                            <a href="#">
+                                <img width="100%" src="./img/sinister.jpeg" alt="">
+                            </a>
+                            <span class="card-play">
+                                <i class="fa-regular fa-circle-play"></i>
+                            </span>
+                        </div>
+                        <div class="card-text">
+                            <h3>titolo</h3>
+                            <a>sott</a>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+
+            <div class="container-cards">
+                <h3>Creato per John Doe</h3>
+                <a>Più ascolti, più accurati saranno i suggerimenti.</a>
+                <div class="layout-cards">
+                
+                    <div class="cards">
+                        <div class="card">
+                            <a href="#">
+                                <img width="100%" src="./img/metal_lifting.jpg" alt="">
+                            </a>
+                            <span class="card-play">
+                                <i class="fa-regular fa-circle-play"></i>
+                            </span>
+                        </div>
+                        <div class="card-text">
+                            <h3>titolo</h3>
+
+                        </div>
+                    </div>
+                </div>
         </div>
     </div>
 
@@ -148,4 +260,5 @@
 
     </div>
 </body>
+
 </html>

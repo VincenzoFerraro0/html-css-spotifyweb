@@ -5,10 +5,27 @@
 
 
     /* custom */
-
+    .sidebar {
+        flex-basis: 20%;
+     
+     }
     
-    /* link menu */
-    .menu-main ul li {
+   
+    /* main */
+    .main{
+        flex-basis: 80%;
+    }
+     /* link menu */
+     .menu-main ul {
+        font-size: 0.8rem;
+    }
+
+     .menu-main ul li {
         flex-basis: calc(100% / 5 - 10px);
     }
+
+    .cards {
+        flex-basis: calc(100% / 4 - 10px);
+    
+    } 
 }
