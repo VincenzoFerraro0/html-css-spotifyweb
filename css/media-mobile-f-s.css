@@ -44,7 +44,7 @@
 
     }
 
-    .sidebar-menu-list ul a {
+    .sidebar-menu-list ul a:hover {
         border-left: 1px solid #ADFF2E;
     }
 
@@ -81,4 +81,5 @@
     .menu-main ul li {
         flex-basis: calc(100% / 3 - 10px);
     }
+    
 }

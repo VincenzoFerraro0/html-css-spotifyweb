@@ -7,6 +7,9 @@
     --color-hover: #ADFF2E;
 }
 
+a:hover{
+    color: white;
+}
 
 /* effetti scomparsa  */
 img[alt="logo big"]{
@@ -157,15 +160,20 @@ img.profile {
     padding: 5px 20px;
     border: 1px solid white;
     border-radius: 20px;
+    
 
 
 }
 a.btn-pill {
     color: white;
 }
+.btn-pill:hover {
+    font-size: large;
+}
 
 
-/* link menu */
+/*  menu main */
+
 .menu-main {
     padding: 10px;
 
@@ -187,10 +195,12 @@ a.btn-pill {
     flex-basis: calc(100% / 4 - 10px);
     flex-grow: 1;
 }
+.menu-main ul li a:hover {
+    border-bottom: 2px solid #ADFF2E;
+}
 
 /* contenitore card music */
 .container-cards {
-    border: 1px solid red;
     padding: 10px;
     margin-bottom: 1em;
     
@@ -209,6 +219,9 @@ a.btn-pill {
 
 } 
 
+.circle {
+    border-radius: 50% ;
+}
 
 
 
