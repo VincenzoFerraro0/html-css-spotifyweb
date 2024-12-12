@@ -19,6 +19,12 @@ img[alt="logo big"]{
     display: none;
    
 }
+.sidebar-menu-bottom a span {
+    display: none;
+}
+.sidebar-menu-bottom hr {
+    display: none;
+}
 
 
 /* contenitore top */
@@ -101,11 +107,28 @@ img[alt="logo big"]{
 /* menu in basso nella sidebar  */
 
 .sidebar-menu-bottom {
-    height: 20%;
-    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    gap: 5px;
 
+    height: 20%;
 
 }
+.sidebar-menu-bottom a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+img.profile {
+    background-color: var(--color-text);
+    border-radius: 50%;
+}
+
+
 
 /* main */
 .main {

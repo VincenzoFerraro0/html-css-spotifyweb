@@ -18,6 +18,12 @@
     .playlist-menu {
         display: flex;
     }
+    .sidebar-menu-bottom a span {
+        display: flex;
+    }
+    .sidebar-menu-bottom hr {
+        display: inline-block;
+    }
     
 
     /* custom */
@@ -43,7 +49,19 @@
         gap: 10px;
     }
 
+    .sidebar-menu-bottom{
+        align-items: flex-start;
+        padding-inline: 10px;
+    }
+    .sidebar-menu-bottom hr {
+        width: 100%;
+        border: 1px solid #7D7F84;
+        margin-bottom: 5px;
+    }
+
+
     .main{
         width:  calc(100% - 800px );
     }
+
 }
