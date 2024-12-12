@@ -1,0 +1,41 @@
+:root {
+    --color-sidebar: #000000;
+    --color-main: #141922;
+    --color-footer: #282828;
+    --color-text: #7D7F84;
+    --color-hover: #ADFF2E;
+}
+
+body {
+    background-color: var(--color-main);
+}
+
+/* contenitore top */
+.layout-top {
+    display: flex;
+    flex-shrink: 1;
+    height: 90vh;
+    
+}
+
+/* sidebar e main  */
+
+.sidebar {
+    flex-basis: 10%;
+    border: 2px solid green;
+
+}
+
+.main {
+    flex-basis: 90%;
+    border: 2px solid red;
+    
+}
+
+/* contenitore bottom */
+
+.layout-bottom{
+    height: 10vh;
+    border: 2px solid yellow;
+}
+
