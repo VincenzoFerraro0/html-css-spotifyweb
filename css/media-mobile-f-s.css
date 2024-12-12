@@ -8,20 +8,42 @@
 
     /* effetti comparsa */
     img[alt="logo big"] {
-        display: block;
+        display: inline-block;
     }
 
-    .sidebar-menu ul a span {
-        display: block;
+    .sidebar-menu-list ul a span {
+        display: inline;
     }
+
+    .playlist-menu {
+        display: flex;
+    }
+    
 
     /* custom */
     .sidebar {
-        flex-basis: 30%;
+        min-width: 250px;
+        flex-shrink: 0;
     
     }
-    .sidebar-menu ul {
+    .logos {
         align-items: flex-start;
     }
+    
+    .sidebar-menu-list ul {
+        align-items: flex-start;
+       
+    }
+    .sidebar-menu-list ul a {
+        border-left: 1px solid #ADFF2E;
+    }
+    .playlist-menu{
+        flex-direction: column;
+        margin-top: 20px;
+        gap: 10px;
+    }
 
+    .main{
+        width:  calc(100% - 800px );
+    }
 }
