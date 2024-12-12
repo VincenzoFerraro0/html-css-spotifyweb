@@ -107,14 +107,14 @@ img[alt="logo big"]{
 /* menu in basso nella sidebar  */
 
 .sidebar-menu-bottom {
+    height: 20%;
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: end;
     gap: 5px;
-
-    height: 20%;
-
+    
 }
 .sidebar-menu-bottom a {
     display: flex;
@@ -140,36 +140,52 @@ img.profile {
 
 /* layout call to action */
 .layout-cta {
-    border: 2px solid blue;
     background-color: var(--color-cta);
-    padding-block: 20px;
+    padding: 20px;
     text-align: right;
+
     position: sticky;
     top: 0;
     z-index: 1;
 }
 
-.btn {
-    padding: 10px 30px;
-    border: 2px solid red;
+.btn-pill {
+    padding: 5px 20px;
+    border: 1px solid white;
+    border-radius: 20px;
+
 
 }
-a.btn {
+a.btn-pill {
     color: white;
 }
 
 
 /* link menu */
+.menu-main {
+    padding: 10px;
+
+}
 
 .menu-main ul {
+   
     text-align: center;
+    text-transform: uppercase;
+    
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    
     gap: 10px;
     flex-wrap: wrap;
+    
 }
+
 .menu-main ul li {
     flex-basis: calc(100% / 4 - 10px);
+    flex-grow: 1;
+}
+.menu-main ul li a {
+    font-size: 0.4rem;
 }
 /* contenitore bottom */
 

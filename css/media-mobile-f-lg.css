@@ -1,5 +1,15 @@
 /* media query mobile first lg 1024px */
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) { 
+
+
+
+
+    /* custom */
+
+    /* link menu */
+    .menu-main ul li {
+        flex-basis: calc(100% / 6 - 10px);
+    }
 
 }
