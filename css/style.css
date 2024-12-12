@@ -13,29 +13,110 @@ body {
 /* contenitore top */
 .layout-top {
     display: flex;
-    flex-shrink: 1;
     height: 90vh;
+
+}
+/* effetti scomparsa  */
+img[alt="logo big"]{
+    display: none;
+}
+.sidebar-menu ul a span {
+    display: none;
+}
+
+
+
+
+/* sidebar */
+
+.sidebar {
+    border: 2px solid green;
+    flex-basis: 10%;
+
+}
+/* menu in alto nella sidebar  */
+.sidebar-menu-top {
+    height: 80%;
+    border: 2px solid purple;
+
+}
+
+/* contenitore loghi */
+.logos {
+    margin-bottom: 20px ;
+}
+
+/* contenitore icone top */
+.sidebar-menu ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.sidebar-menu ul a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+ 
     
 }
 
-/* sidebar e main  */
 
-.sidebar {
-    flex-basis: 10%;
-    border: 2px solid green;
+/* menu in basso nella sidebar  */
+
+.sidebar-menu-bottom {
+    height: 20%;
+    border: 2px solid blue;
+
 
 }
 
+/* main */
 .main {
     flex-basis: 90%;
     border: 2px solid red;
-    
+    overflow: scroll;
+
 }
 
+/* layout call to action */
+.layout-cta {
+    border: 2px solid blue;
+    padding-block: 20px;
+    text-align: right;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.btn {
+    padding: 10px 30px;
+    border: 2px solid red;
+
+}
+a.btn {
+    color: white;
+}
+
+
+/* link menu */
+
+.menu-main ul {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.menu-main ul li {
+    flex-basis: calc(100% / 4 - 10px);
+}
 /* contenitore bottom */
 
-.layout-bottom{
+.layout-bottom {
     height: 10vh;
     border: 2px solid yellow;
 }
-
