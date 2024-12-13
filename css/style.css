@@ -54,6 +54,7 @@ img[alt="logo big"]{
     height: 80%;
     /* border: 2px solid purple; */
     color: white;
+    text-transform: capitalize;
 
 }
 
@@ -107,6 +108,9 @@ img[alt="logo big"]{
     aspect-ratio: 1;
     background-color: var(--color-text);
 
+}
+.cube:hover {
+    background-color: white;
 }
 
 
