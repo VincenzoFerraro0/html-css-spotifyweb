@@ -29,11 +29,13 @@
 
 
     /* custom */
-    .sidebar {
-        flex-basis: 40%;
-
+    .sidebar{
+        min-width: 250px;
     }
 
+    .main {
+        width: calc(100% - 250px);
+    }
     .logos {
         align-items: flex-start;
     }
@@ -69,7 +71,7 @@
 
     /* main */
     .main {
-        flex-basis: 60%;
+        flex-grow: 1;
     }
 
     /* link menu */
@@ -81,8 +83,5 @@
     .menu-main ul li {
         flex-basis: calc(100% / 3 - 10px);
     }
-    .right-range{
-        display: block;
-    }
-    
+    .
 }

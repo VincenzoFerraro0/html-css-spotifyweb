@@ -5,16 +5,11 @@
 
 
     /* custom */
-    .sidebar {
-        flex-basis: 30%;
-     
-     }
+    
     
    
     /* main */
-    .main{
-        flex-basis: 70%;
-    }
+    
      /* link menu */
      .menu-main ul {
         font-size: 0.8rem;

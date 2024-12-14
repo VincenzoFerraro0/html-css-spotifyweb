@@ -6,15 +6,10 @@
     /* custom */
 
     /* sidebar */
-    .sidebar {
-        flex-basis: 20% ;
-    }
+  
 
     /* main */
-    .main {
-        flex-basis: 80%;
-    }
- 
+    
     /* link menu */
     .menu-main ul {
         font-size: 0.9rem;

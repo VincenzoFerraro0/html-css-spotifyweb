@@ -1,18 +1,71 @@
+:root {
+    --color-sidebar: #000000;
+    --color-main: #141922;
+    --color-cta: rgb(9, 11, 19, 0.7);
+    --color-footer: #282828;
+    --color-text: #7D7F84;
+    --color-hover: #ADFF2E;
+}
+
+
+
+
+
+
 /* Azzera tutti i valori di default */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
+
 a {
     text-decoration: none;
     color: #7D7F84;
 }
+
 ul {
     list-style-type: none;
 }
+
 img {
     display: block;
-    /* width: 100%; */
+
+}
+
+/* reset del stile base di tutti i browser */
+input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    cursor: pointer;
+    width: 15rem;
+}
+
+/* stile della barra orizzontale  */
+input[type="range"]::-webkit-slider-runnable-track {
+    background: var(--color-text);
+    height: 0.5rem;
+    border-radius: 50px;
+}
+input[type="range"]:hover::-webkit-slider-runnable-track{
+    background-color: rgba(0, 0, 0, 0.727);
+}
+
+/* stile del thumb (cursore che si sposta) */
+input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+
+    margin-top: -12px;
+    /* Centers thumb on the track */
+    background-color: var(--color-hover);
+    height: 2rem;
+    width: 1rem;
+    border-radius: 5rem;
+    display: none;
+}
+
+input[type="range"]:hover::-webkit-slider-thumb {
+    display: block;
 }

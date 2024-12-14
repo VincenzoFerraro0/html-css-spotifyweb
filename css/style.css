@@ -36,8 +36,7 @@ img[alt="logo big"]{
 /* contenitore top */
 .layout-top {
     display: flex;
-    height: 90vh;
-
+    height: 83vh;
 }
 
 /* sidebar */
@@ -47,6 +46,8 @@ img[alt="logo big"]{
     display: flex;
     flex-direction: column;
     padding: 10px;
+
+    flex-basis: 10%;
 
 }
 /* menu in alto nella sidebar  */
@@ -143,9 +144,9 @@ img.profile {
 
 /* main */
 .main {
-    flex-basis: 90%;
+   flex-basis: 90%;
     background-color: var(--color-main);
-    overflow-y: scroll;
+    overflow-y: auto;
     color: white;
 
 }
@@ -278,118 +279,118 @@ a.btn-pill {
 /* contenitore bottom */
 
 .layout-bottom {
-    height: 10vh;
+    height: 17vh;
     background-color: var(--color-footer);
-    
-    
-}
+    padding: 10px;
 
-.footer-container{
     display: flex;
-    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
 }
 
-.footer-left{
-    border: 1px solid green;
-    flex-basis: 20%;
 
+
+
+/* box a sinistra */
+.left {
+    flex-shrink: 1;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    gap: 10px;
-    
-    
-    
+    justify-content: space-between;
+    gap: 5px;
 }
-.box-img-text {
-    flex-basis: 20%;
-    font-size: 0.3rem;
 
+
+.left-img-text {
     display: flex;
     align-items: center;
-    gap: 10px;
-    
+    gap: 5px;
+}
+
+.left-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
 }
 
 
+/* box centrale  */
+.center{
+    flex-grow: 3;
 
-
-/* contenitore parte centrale */
-.footer-center{
-    border: 1px solid blue;
-    flex-basis: 50%;
-    margin: 0 auto;
-
-    
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
-    gap: 5px;
-
+    justify-content: center;
+    gap: 10px;
 
     
-   
 }
 
-/* contenitore icone centrali */
 .center-icon {
     display: flex;
-    justify-content: center;
-    gap: 20px;
-    border: 1px solid red;
+    gap: 7px;
+    align-items: center;
 
-    
+}
+
+
+.center-icon i,
+.left-icon i,
+.right i {
+    font-size: 1.4rem;
+    color: white;
+}
+
+.center-icon i:hover,
+.left-icon i:hover,
+.right i:hover {
+    color: #ADFF2E;
     
 }
 
-/* contenitore controllo range */
-.center-range {
-    width: 80%;
+.center-icon .fa-circle-play{
+    font-size: 2.5rem;
+}
+
+
+.center-input {
+    width: 70%;
+
     display: flex;
     align-items: center;
-    justify-content: center;
-    border: 1px solid yellow;
-    
-    
-}
-/* controllo range */
-.center-range input {
-    width: 90%;
- 
-}
-
-
-.footer-right{
-    border: 1px solid yellow;
-    flex-basis: 20%;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 10px;
     
     
-    
-}
-.right-icon{
-    border: 1px solid red;
-    flex-basis: 40%;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+
 }
 
-.right-range{
-    border: 1px solid yellow;
-    flex-basis: 60%;
-    display: none;
-}
-
-.right-range input {
+.center-input input{
     width: 100%;
+}
+
+.right{
+
+    flex-shrink: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:10px
+
+}
+
+.right-icon{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+
+
+.right input {
+    width: 50%;
 }
 
 
