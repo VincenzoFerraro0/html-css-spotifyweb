@@ -28,9 +28,7 @@ img[alt="logo big"]{
 .sidebar-menu-bottom hr {
     display: none;
 }
-.card-paly {
-    display: none;
-}
+
 
 
 /* contenitore top */
@@ -149,6 +147,7 @@ img.profile {
     overflow-y: auto;
     color: white;
 
+
 }
 
 /* layout call to action */
@@ -242,11 +241,6 @@ a.btn-pill {
     position: relative;
 
 }
-.card img:hover {
-    opacity: 0.5;
-}
-
-
 
 .card-play{
     position: absolute;
@@ -256,9 +250,14 @@ a.btn-pill {
     display: none;
 }
 
+
 .card:hover .card-play {
     display: inline-block;
     
+}
+
+.card:hover img{
+    opacity: 0.5;
 }
 
 .card-text {
