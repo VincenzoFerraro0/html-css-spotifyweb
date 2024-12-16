@@ -23,6 +23,11 @@
         flex-basis: calc(100% / 4 - 10px);
     
     } 
-
     
+    /* contenitore bottom  */
+
+    .left-icon {
+        flex-direction: row;
+        gap: 10px;
+    }
 }

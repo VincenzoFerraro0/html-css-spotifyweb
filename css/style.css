@@ -267,6 +267,8 @@ a.btn-pill {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    gap: 5px;
     
 }
 .fa-circle-play-withe {
@@ -294,11 +296,12 @@ a.btn-pill {
 
 /* box a sinistra */
 .left {
-    flex-shrink: 1;
+    /* flex-shrink: 1; */
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 5px;
+    flex-grow: 1;
 }
 
 
@@ -306,6 +309,9 @@ a.btn-pill {
     display: flex;
     align-items: center;
     gap: 5px;
+    text-transform: capitalize;
+    color: white;
+    font-size: 0.8rem;
 }
 
 .left-icon {
@@ -362,10 +368,10 @@ a.btn-pill {
     display: flex;
     align-items: center;
     gap: 10px;
-    
-    
-
-
+}
+.center-input span {
+    color: white;
+    font-size: 0.8rem;
 }
 
 .center-input input{

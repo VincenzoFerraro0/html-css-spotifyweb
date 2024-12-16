@@ -33,9 +33,7 @@
         min-width: 250px;
     }
 
-    .main {
-        width: calc(100% - 250px);
-    }
+
     .logos {
         align-items: flex-start;
     }
@@ -70,7 +68,9 @@
     }
 
     /* main */
+
     .main {
+        width: calc(100% - 250px);
         flex-grow: 1;
     }
 
@@ -82,6 +82,12 @@
 
     .menu-main ul li {
         flex-basis: calc(100% / 3 - 10px);
+ 
     }
-    .
+    
+    /* contenitore bottom  */
+    .left {
+        max-width: 250px;
+    }
+ 
 }

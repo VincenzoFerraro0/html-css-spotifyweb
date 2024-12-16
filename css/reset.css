@@ -34,13 +34,17 @@ img {
 
 }
 
+span {
+    color: var(--color-text)
+}
+
 /* reset del stile base di tutti i browser */
 input[type="range"] {
     -webkit-appearance: none;
     appearance: none;
     background: transparent;
     cursor: pointer;
-    width: 15rem;
+
 }
 
 /* stile della barra orizzontale  */
@@ -56,12 +60,10 @@ input[type="range"]:hover::-webkit-slider-runnable-track{
 /* stile del thumb (cursore che si sposta) */
 input[type="range"]::-webkit-slider-thumb {
     appearance: none;
-
-    margin-top: -12px;
-    /* Centers thumb on the track */
+    margin-top: -4px;
     background-color: var(--color-hover);
-    height: 2rem;
-    width: 1rem;
+    height: 1rem;
+    width: 0.5rem;
     border-radius: 5rem;
     display: none;
 }
