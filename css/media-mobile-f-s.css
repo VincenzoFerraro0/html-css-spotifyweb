@@ -27,10 +27,12 @@
         display: inline-block;
     }
 
-
-    /* custom */
-    .sidebar{
+    /* 
+        custom 
+    */
+    .sidebar {
         min-width: 250px;
+
     }
 
 
@@ -38,24 +40,30 @@
         align-items: flex-start;
     }
 
-    /* contenitore icone top */
+    /* 
+        contenitore icone top 
+    */
     .sidebar-menu-list ul {
         align-items: flex-start;
 
     }
-   
+
     .sidebar-menu-list ul a:hover {
         border-left: 2px solid #ADFF2E;
     }
 
-    /* contenitore playlist */
+    /*  
+        contenitore playlist 
+    */
     .playlist-menu {
         flex-direction: column;
         margin-top: 20px;
         gap: 10px;
     }
 
-    /* menu in basso nella sidebar  */
+    /* 
+         menu in basso nella sidebar 
+     */
     .sidebar-menu-bottom {
         align-items: flex-start;
         padding-inline: 10px;
@@ -66,6 +74,8 @@
         border: 1px solid #7D7F84;
         margin-bottom: 5px;
     }
+
+
 
     /* main */
 
@@ -82,12 +92,13 @@
 
     .menu-main ul li {
         flex-basis: calc(100% / 3 - 10px);
- 
+
     }
     
+
     /* contenitore bottom  */
     .left {
         max-width: 250px;
     }
- 
+
 }

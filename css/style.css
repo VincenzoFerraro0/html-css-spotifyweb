@@ -34,24 +34,26 @@ img[alt="logo big"]{
 /* contenitore top */
 .layout-top {
     display: flex;
-    height: 83vh;
+    height: calc(90vh - 10px);
+   
 }
 
 /* sidebar */
 
 .sidebar {
     background-color: var(--color-sidebar);
+    padding: 10px;
+    
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    justify-content: space-between;
+    overflow: auto;
 
-    flex-basis: 10%;
 
 }
+
 /* menu in alto nella sidebar  */
 .sidebar-menu-top {
-    height: 80%;
-    /* border: 2px solid purple; */
     color: white;
     text-transform: capitalize;
 
@@ -66,9 +68,7 @@ img[alt="logo big"]{
 }
 
 /* contenitore icone top */
-.sidebar-menu-top {
-    overflow: auto;
-}
+
 .sidebar-menu-list{
     margin-bottom: 10px;
 }
@@ -117,7 +117,7 @@ img[alt="logo big"]{
 /* menu in basso nella sidebar  */
 
 .sidebar-menu-bottom {
-    height: 20%;
+    margin-top: 10px;
 
     display: flex;
     flex-direction: column;
@@ -146,6 +146,7 @@ img.profile {
     background-color: var(--color-main);
     overflow-y: auto;
     color: white;
+    /* background-image: linear-gradient(234deg, #1ED761 , #181414) ; */
 
 
 }
@@ -153,9 +154,9 @@ img.profile {
 /* layout call to action */
 .layout-cta {
     background-color: var(--color-cta);
-    padding: 20px;
+    padding: 25px;
     text-align: right;
-    font-size: 0.5rem;
+    font-size: 0.6rem;
     
     position: sticky;
     top: 0;
@@ -163,18 +164,16 @@ img.profile {
 }
 
 .btn-pill {
-    padding: 10px 20px;
+    padding: 10px 15px;
     border: 1px solid white;
     border-radius: 20px;
     
-    
-
-
 }
 a.btn-pill {
     color: #7D7F84;
     text-transform: uppercase;
 }
+
 .btn-pill:hover {
     font-size: 0.8rem;
     color: white;
@@ -207,6 +206,7 @@ a.btn-pill {
     flex-basis: calc(100% / 4 - 10px);
     flex-grow: 1 ;
 }
+
 .menu-main ul li a:hover {
     border-bottom: 2px solid #ADFF2E;
 }
@@ -250,18 +250,23 @@ a.btn-pill {
     display: none;
 }
 
+.fa-circle-play-withe {
+    font-size: 60px;
+    color: white;
+}
+
+
 
 .card:hover .card-play {
     display: inline-block;
     
 }
 
-.card:hover img{
+.card:hover  img{
     opacity: 0.5;
 }
 
 .card-text {
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -270,17 +275,12 @@ a.btn-pill {
     gap: 5px;
     
 }
-.fa-circle-play-withe {
-
-    font-size: 60px;
-    color: white;
-}
 
 
 /* contenitore bottom */
 
 .layout-bottom {
-    height: 17vh;
+    min-height: 10vh ;
     background-color: var(--color-footer);
     padding: 10px;
 
@@ -295,7 +295,6 @@ a.btn-pill {
 
 /* box a sinistra */
 .left {
-    /* flex-shrink: 1; */
     display: flex;
     align-items: center;
     justify-content: space-between;
