@@ -94,11 +94,13 @@
         flex-basis: calc(100% / 3 - 10px);
 
     }
-    
+
 
     /* contenitore bottom  */
     .left {
         max-width: 250px;
     }
+
+
 
 }

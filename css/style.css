@@ -34,7 +34,7 @@ img[alt="logo big"]{
 /* contenitore top */
 .layout-top {
     display: flex;
-    height: calc(90vh - 10px);
+    height: 90vh;
    
 }
 
@@ -282,7 +282,7 @@ a.btn-pill {
 .layout-bottom {
     min-height: 10vh ;
     background-color: var(--color-footer);
-    padding: 10px;
+    padding: 10px 10px 0 10px;
 
     display: flex;
     justify-content: space-between;
@@ -323,7 +323,7 @@ a.btn-pill {
 /* box centrale  */
 .center{
     flex-grow: 3;
-
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -344,7 +344,7 @@ a.btn-pill {
 .center-icon i,
 .left-icon i,
 .right i {
-    font-size: 1.4rem;
+    font-size: 0.8rem;
     color: white;
 }
 
@@ -356,17 +356,19 @@ a.btn-pill {
 }
 
 .center-icon .fa-circle-play{
-    font-size: 2.5rem;
+    font-size: 1rem;
 }
 
 
 .center-input {
     width: 70%;
+    
 
     display: flex;
     align-items: center;
     gap: 10px;
 }
+
 .center-input span {
     color: white;
     font-size: 0.8rem;
